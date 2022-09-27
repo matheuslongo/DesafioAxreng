@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.axreng.backend.CrawlingProcessorInputTest" time="0.056" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/test-classes:/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/classes:/home/matheuslongo/.m2/repository/com/sparkjava/spark-core/2.9.2/spark-core-2.9.2.jar:/home/matheuslongo/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-server/9.4.30.v20200611/jetty-server-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-http/9.4.30.v20200611/jetty-http-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-util/9.4.30.v20200611/jetty-util-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-io/9.4.30.v20200611/jetty-io-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.30.v20200611/jetty-webapp-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.30.v20200611/jetty-xml-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.30.v20200611/jetty-servlet-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-security/9.4.30.v20200611/jetty-security-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.30.v20200611/websocket-server-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.30.v20200611/websocket-common-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.30.v20200611/websocket-client-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-client/9.4.30.v20200611/jetty-client-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.30.v20200611/websocket-servlet-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.30.v20200611/websocket-api-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/matheuslongo/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/matheuslongo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/matheuslongo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/matheuslongo/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/matheuslongo/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/matheuslongo/.m2/repository/org/mockito/mockito-core/3.5.7/mockito-core-3.5.7.jar:/home/matheuslongo/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/home/matheuslongo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/matheuslongo/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/home/matheuslongo/.jdks/openjdk-18.0.1.1/lib"/>
+    <property name="sun.java.command" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/surefire/surefirebooter1031950984956459591.jar /home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/surefire 2022-09-27T19-10-51_549-jvmRun1 surefire15346679776344342431tmp surefire_02938995008167424496tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/test-classes:/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/classes:/home/matheuslongo/.m2/repository/com/sparkjava/spark-core/2.9.2/spark-core-2.9.2.jar:/home/matheuslongo/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-server/9.4.30.v20200611/jetty-server-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-http/9.4.30.v20200611/jetty-http-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-util/9.4.30.v20200611/jetty-util-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-io/9.4.30.v20200611/jetty-io-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.30.v20200611/jetty-webapp-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.30.v20200611/jetty-xml-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.30.v20200611/jetty-servlet-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-security/9.4.30.v20200611/jetty-security-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.30.v20200611/websocket-server-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.30.v20200611/websocket-common-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.30.v20200611/websocket-client-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/jetty-client/9.4.30.v20200611/jetty-client-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.30.v20200611/websocket-servlet-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.30.v20200611/websocket-api-9.4.30.v20200611.jar:/home/matheuslongo/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/matheuslongo/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/matheuslongo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/matheuslongo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/matheuslongo/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/matheuslongo/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/matheuslongo/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/matheuslongo/.m2/repository/org/mockito/mockito-core/3.5.7/mockito-core-3.5.7.jar:/home/matheuslongo/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/home/matheuslongo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/matheuslongo/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/matheuslongo"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="/home/matheuslongo/.jdks/openjdk-18.0.1.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test/target/surefire/surefirebooter1031950984956459591.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="matheuslongo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-48-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/matheuslongo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="/home/matheuslongo/Documentos/PROVA/Java_Challenges_2022__2_/axreng-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="noProtocolTest" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.014"/>
+  <testcase name="invalidUrlTest" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.003"/>
+  <testcase name="invalidKeywordNotAlphaNumeric" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.002"/>
+  <testcase name="invalidKeywordSizeTest01" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.005"/>
+  <testcase name="keyWordNotPresentTest" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.001"/>
+  <testcase name="urlNotPresentTest" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.001"/>
+  <testcase name="shouldConstructValidCrawlingProcessor01" classname="com.axreng.backend.CrawlingProcessorInputTest" time="0.002"/>
+</testsuite>
