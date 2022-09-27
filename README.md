@@ -3,10 +3,10 @@ A partir do diretório raiz do projeto, os seguintes comandos, executados em seq
 compilação e execução da aplicação:
 
 
-docker build . -t sha256:4d05f66047921744ce43a601ee0ea09522c04af3ddcde61873b8f26fbb249147
+** docker build . -t sha256:4d05f66047921744ce43a601ee0ea09522c04af3ddcde61873b8f26fbb249147
 
 
-docker run -e BASE_URL=http://hiring.axreng.com/ -e KEYWORD=four --rm sha256:4d05f66047921744ce43a601ee0ea09522c04af3ddcde61873b8f26fbb249147
+** docker run -e BASE_URL=http://hiring.axreng.com/ -e KEYWORD=four --rm sha256:4d05f66047921744ce43a601ee0ea09522c04af3ddcde61873b8f26fbb249147
 
 
 
